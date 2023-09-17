@@ -8,5 +8,6 @@ namespace SeguridadWeb.EntidadesDeNegocio
 {
     public class Usuario
     {
+
     }
 }
