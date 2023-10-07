@@ -17,7 +17,7 @@ namespace SeguridadWeb.EntidadesDeNegocio
         [StringLength(30, ErrorMessage = "Maximo 30 caracteres")]
         public string Nombre { get; set; }
         [NotMapped]
-        public int Top_aux { get; set; }
+        public int Top_Aux { get; set; }
         public List<Usuario> Usuario { get; set; }  
 
     }
